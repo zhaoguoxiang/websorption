@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form method="POST" enctype="multipart/form-data">
+      {% csrf_token %} 
+      user: <input type="text" name="user" /> 用户名使用英文, 不要有空格和标点符号 <br />
+      email: <input type="text" name="email" /> <br />
+      your cif file:<input type="file" name="cif" /> <br />
+      calculation parameters: <br />
+      molecule:
+      <select name="molecule">
+        <option value="methane">methane</option>
+        <option value="ethane">ethane</option>
+        <option value="propane">propane</option>
+      </select>
+      model:
+      <select name="model">
+        <option value="RF">RF</option>
+        <option value="GBDT">GBDT</option>
+        <option value="MLP">MLP</option>
+      </select> <br/>
+      <input type="submit" value="submit" />
+    </form>
+  </body>
+</html>

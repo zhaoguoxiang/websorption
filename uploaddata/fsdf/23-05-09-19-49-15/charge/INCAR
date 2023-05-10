@@ -1,0 +1,14 @@
+ENCUT = 400
+GGA = Pe
+IALGO = 48
+ICHARG = 2
+ISMEAR = 0
+ISTART = 0
+LAECHG = True
+LCHARG = True
+LREAL = Auto
+NPAR = 4
+NSW = 0
+PREC = Accurate
+SIGMA = 0.01
+SYSTEM = DDEC

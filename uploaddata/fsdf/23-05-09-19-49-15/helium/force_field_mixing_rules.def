@@ -1,0 +1,107 @@
+# general rule for shifted vs truncated
+truncated
+# general rule tailcorrections
+yes
+# number of defined interactions
+98
+# type interaction
+He             lennard-jones    10.9      2.64         // J.O. Hirschfelder et al., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, p. 1114.
+O_		lennard-jones	30.21337777	        3.118145513			
+Si_	    	lennard-Jones	202.429631	        3.826409994
+C1_	        lennard-jones	52.873411089753		3.43085096355846
+H1_		lennard-jones   22.14289142912		2.57113370055303
+C2_	        lennard-jones	52.873411089753		3.43085096355846
+H2_		lennard-jones   22.14289142912		2.57113370055303	
+As_AsF3		lennard-jones   155.50348753632		3.76850157773365
+F_AsF3		lennard-jones   25.1778148046443	2.99698328782411
+As_AsH3		lennard-jones   155.50348753632		3.76850157773365
+H_AsH3		lennard-jones   22.14289142912		2.57113370055303
+B_B2H6		lennard-jones	90.58455584640		3.63753946616702
+H1_B2H6		lennard-jones   22.14289142912		2.57113370055303
+H2_B2H6		lennard-jones   22.14289142912		2.57113370055303
+B_BCl3		lennard-jones	90.58455584640		3.63753946616702
+Cl_BCl3		lennard-jones	114.307279213085	3.51637724049993
+C_C2F6	        lennard-jones	52.873411089753		3.43085096355846
+F_C2F6  	lennard-jones   25.1778148046443	2.99698328782411
+C_CF4		lennard-jones	52.873411089753		3.43085096355846
+F_CF4		lennard-jones   25.1778148046443	2.99698328782411
+C_CH2Cl2	lennard-jones	52.873411089753		3.43085096355846
+H_CH2Cl2	lennard-jones   22.14289142912		2.57113370055303
+Cl_CH2Cl2	lennard-jones	114.307279213085	3.51637724049993
+C_CH4		lennard-jones	52.873411089753		3.43085096355846
+H_CH4		lennard-jones   22.14289142912		2.57113370055303	
+C_CHF3		lennard-jones	52.873411089753		3.43085096355846	
+H_CHF3		lennard-jones   22.14289142912		2.57113370055303	
+F_CHF3		lennard-jones   25.1778148046443	2.99698328782411
+Cl_Cl2		lennard-jones	114.307279213085	3.51637724049993
+Cl_ClF3		lennard-jones	114.307279213085	3.51637724049993
+F_ClF3		lennard-jones   25.1778148046443	2.99698328782411
+C_CO		lennard-jones	52.873411089753		3.43085096355846
+O_CO		lennard-jones	30.2133777655731	3.1181455134912
+C_CO2		lennard-jones	52.873411089753		3.43085096355846
+O_CO2		lennard-jones	30.2133777655731	3.1181455134912
+F_F2		lennard-jones	25.1778148046443	2.99698328782411
+Ge_GeH4		lennard-jones	190.847836219204	3.81304651364066
+H_GeH4		lennard-jones	22.14289142912		2.57113370055303
+H_H2		lennard-jones	22.14289142912		2.57113370055303
+O_H2O		lennard-jones	30.2133777655731	3.1181455134912
+H_H2O		lennard-jones	22.14289142912		2.57113370055303
+H_HBr		lennard-jones	22.14289142912		2.57113370055303
+Br_HBr		lennard-jones	126.392630319314	3.73197473028989
+N_N2		lennard-jones	34.7453844304091	3.26068930839365
+N_N2O		lennard-jones	34.7453844304091	3.26068930839365
+O_N2O		lennard-jones	30.2133777655731	3.1181455134912
+N_NF3		lennard-jones	34.7453844304091	3.26068930839365
+F_NF3		lennard-jones   25.1778148046443	2.99698328782411
+O_O2		lennard-jones	30.2133777655731	3.1181455134912
+P_PF3		lennard-jones	153.58467030833		3.694556984128
+F_PF3		lennard-jones   25.1778148046443	2.99698328782411
+P_PH3		lennard-jones	153.58467030833		3.694556984128
+H_PH3		lennard-jones   22.14289142912		2.57113370055303
+P_POCl3		lennard-jones	153.58467030833		3.694556984128
+O_POCl3		lennard-jones	30.2133777655731	3.1181455134912
+Cl_POCl3	lennard-jones	114.307279213085	3.51637724049993
+Sb_SbH3		lennard-jones   225.958142892		3.93777233418031
+H_SbH3		lennard-jones   22.14289142912		2.57113370055303
+S_SF6		lennard-jones   137.974425129451	3.59477632769628
+F_SF6		lennard-jones   25.1778148046443	2.99698328782411
+Si_SiCl4	lennard-jones   202.42963102934		3.82640999441277
+Cl_SiCl4	lennard-jones	114.307279213085	3.51637724049993
+Si_SiF4		lennard-jones   202.42963102934		3.82640999441277
+F_SiF4		lennard-jones   25.1778148046443	2.99698328782411
+Si_SiH2Cl2	lennard-jones   202.42963102934		3.82640999441277
+H_SiH2Cl2	lennard-jones   22.14289142912		2.57113370055303
+Cl_SiH2Cl2	lennard-jones	114.307279213085	3.51637724049993
+Si_SiH4		lennard-jones   202.42963102934		3.82640999441277
+H_SiH4		lennard-jones   22.14289142912		2.57113370055303
+Si_SiHCl3	lennard-jones   202.42963102934		3.82640999441277
+H_SiHCl3	lennard-jones   22.14289142912		2.57113370055303
+Cl_SiHCl3	lennard-jones	114.307279213085	3.51637724049993
+Ti_TiCl4	lennard-jones	8.56045703357905	2.82860343009558
+Cl_TiCl4	lennard-jones	114.307279213085	3.51637724049993
+W_WF6		lennard-jones	33.7382718382233	2.73416816597271
+F_WF6		lennard-jones   25.1778148046443	2.99698328782411
+P_		lennard-jones	153.58467030833		3.694556984128 // UFF
+C_	        lennard-jones	52.873411089753		3.43085096355846  // UFF
+H_		lennard-jones   22.14289142912		2.57113370055303  // UFF
+Be_            lennard-jones    42.7736   2.44552      // UFF
+Cr_            lennard-jones     7.54829  2.69319      // UFF
+Fe_            lennard-jones     6.54185  2.5943       // UFF
+Mn_            lennard-jones     6.54185  2.63795      // UFF
+Cu_            lennard-jones     2.5161   3.11369      // UFF
+Co_            lennard-jones     7.04507  2.55866      // UFF
+Ga_            lennard-jones   208.836    3.90481      // UFF
+Ti_            lennard-jones     8.55473  2.8286       // UFF
+Sc_            lennard-jones     9.56117  2.93551      // UFF
+V_             lennard-jones     8.05151  2.80099      // UFF
+Ni_            lennard-jones     7.54829  2.52481      // UFF
+Zr_            lennard-jones    34.7221   2.78317      // UFF
+Mg_            lennard-jones    55.8574   2.69141      // UFF
+Ne_            lennard-jones    21.1352   2.88918      // UFF
+Ag_            lennard-jones    18.1159   2.80455      // UFF
+In_            lennard-jones   301.428    3.97608      // UFF
+Cd_            lennard-jones   114.734    2.53728      // UFF
+Sb_            lennard-jones   225.946    3.93777      // UFF
+Te_            lennard-jones   200.281    3.98232      // UFF
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot

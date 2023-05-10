@@ -1,0 +1,38 @@
+SimulationType                              MonteCarlo
+NumberOfCycles                              100
+NumberOfInitializationCycles                100
+PrintEvery                                  20
+
+RestartFile                                 no
+
+Movies                                      yes
+WriteMoviesEvery                            200
+
+ComputeDensityProfile3DVTKGrid              yes
+WriteDensityProfile3DVTKGridEvery           200
+DensityProfile3DVTKGridPoints               200 200 200
+AverageDensityOverUnitCellsVTK              yes
+DensityAverageingTypeVTK                    FullBox
+
+Forcefield                                  Local
+UseChargesFromCIFFile                       yes
+CutOffVDW                                   14.0
+ChargeMethod                                Ewald
+EwaldPrecision                              1e-6
+
+Framework                                   0
+FrameworkName                               structure_charged
+UnitCells                                   2 2 2
+HeliumVoidFraction                          1.15055
+ExternalPressure                            101325.0
+ExternalTemperature                         298K.0
+
+Component 0 MoleculeName                    methane
+            MoleculeDefinition              Local
+            FugacityCoefficient             1.0
+            TranslationProbability          1.0
+            RotationProbability             1.0
+            ReinsertionProbability          1.0
+            CBMCProbability                 1.0
+            SwapProbability                 1.0
+            CreateNumberOfMolecules         0
